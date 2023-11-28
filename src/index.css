@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#hide-scroll {
+  overflow-x: scroll;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+#hide-scroll::-webkit-scrollbar {
+  -webkit-scrollbar: none !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
